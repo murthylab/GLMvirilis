@@ -1,5 +1,16 @@
 # GLM
-
+blah blah
 
 ## sparse GLM
-- contains code from CITE and website link
+blah blah
+
+## instructions
+1. run `fitFilters.m` to do cross-validated fit of filters (results saved in `res/`. 
+2. `plotFilters.m` plots the results.
+
+## contents
+- `dat/` - data directory, contains annotated male-male (`MFcorr.mat`) and male-female (`MMcorr.mat`) courtship data
+- `fig/` - where `plotFilters.m` saves figures to
+- `res/` - where `fitFilters.m` saves results to
+- `sparseglm/` - code for fitting sparse GLMs from [Mineault et al. (2009)](http://www.journalofvision.org/content/9/10/17.full) downloaded from [Pack lab website](http://packlab.mcgill.ca/sparseglm.zip)
+- `src/` - miscellaneous helper functions
