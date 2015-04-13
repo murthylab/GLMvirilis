@@ -1,9 +1,6 @@
 # GLM
 blah blah
 
-## sparse GLM
-blah blah
-
 ## instructions
 1. run `fitFilters.m` to do cross-validated fit of filters (results saved in `res/`). 
 2. `plotFilters.m` plots the results.
