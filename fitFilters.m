@@ -12,7 +12,7 @@ FWHM = 2.5;
 Bsingle = get1DLaplacianPyramidBasis(width,levels,step,FWHM);
 [w, h] = size(Bsingle);
 
-runs = 10; % number of cross-validation runs
+runs = 10; % number of cross-validation runs - we used *1000* in the paper - reduced here to speed up calc's
 fps = 60; % frame-rate of videos and hence sampling rate of annotated data
 
 %%
