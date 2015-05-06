@@ -1,5 +1,5 @@
 # GLM
-blah blah
+Code and data for calculating behavioral filters.
 
 ## instructions
 1. run `fitFilters.m` to do cross-validated fit of filters (results saved in `res/`). 
@@ -9,5 +9,5 @@ blah blah
 - `dat/` - data directory, contains annotated male-female (`dat/MFcorr.mat`) and male-male (`dat/MMcorr.mat`) courtship data
 - `fig/` - where `plotFilters.m` saves figures to
 - `res/` - where `fitFilters.m` saves results to
-- `sparseglm/` - code for fitting sparse GLMs from [Mineault et al. (2009)](http://www.journalofvision.org/content/9/10/17.full) downloaded from [Pack lab website](http://packlab.mcgill.ca/sparseglm.zip)
+- `sparseglm/` - code for fitting sparse GLMs from [Mineault et al. (2009)](http://www.journalofvision.org/content/9/10/17.full) downloaded from [Pack lab website](http://packlab.mcgill.ca)
 - `src/` - miscellaneous helper functions
