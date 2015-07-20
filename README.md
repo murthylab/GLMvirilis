@@ -3,7 +3,9 @@ Code and data for calculating behavioral filters.
 
 ## instructions
 1. run `fitFilters.m` to do cross-validated fit of filters (results saved in `res/`). 
-2. `plotFilters.m` plots the results.
+2. `plotFilters.m` plots the results. 
+
+`minimalExample.m` contains a minimal example... 
 
 ## contents
 - `dat/` - data directory, contains annotated male-female (`dat/MFcorr.mat`) and male-male (`dat/MMcorr.mat`) courtship data
