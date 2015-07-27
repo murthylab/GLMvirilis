@@ -93,7 +93,7 @@ function thefit = glmfitsparseprior(y,X,U,stopcrit,varargin)
         
         %Calculate max lambda
         Xw = X*w;
-        [u f] = uopt(u,Xw,U,y,modeltype,modelextra,1e9);
+        [u, f] = uopt(u,Xw,U,y,modeltype,modelextra,1e9);
         maxdeviance = f*2;
         Uu = U*u;
         eta = X*w+Uu;
